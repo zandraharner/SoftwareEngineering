@@ -1,0 +1,19 @@
+
+Your employer was  using Oracle database now, however, 
+now, they now want to use Cassandra 
+
+So all places you have the statements like 
+
+DB curdatabase = new Oracle();
+DB curdatabase = new           Oracle();
+
+or 
+
+Oracle curdatabase = new Oracle(); 
+Oracle curdatabase = new    Oracle(); 
+
+needs to be changed to 
+
+DB curdatabase = new Cassandra();
+or
+Cassandra curdatabase = new Cassandra();
