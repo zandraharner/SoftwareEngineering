@@ -1,0 +1,21 @@
+
+Your employer was  using Oracle database now, however, 
+now, they now want to use Cassandra 
+
+You only need to change one place
+DBInfo.java 
+
+change the statement with DBInfo.java
+ public static String DBName = "Oracle";
+ 
+ to 
+
+ public static String DBName = "Cassandra";
+ 
+ and you are done! 
+ 
+ In summary, 
+ The factory design pattern is used when we have a superclass with multiple sub-classes and based on input, 
+ we need to return one of the sub-class. 
+ This pattern takes out the responsibility of the instantiation of a class 
+ from the client program to the factory class.
