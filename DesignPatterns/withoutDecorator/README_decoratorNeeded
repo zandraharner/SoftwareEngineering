@@ -1,0 +1,6 @@
+Now, let's take a look at the decoration portion. So far, all is good, and we can draw Circle and Rectangle. 
+But, we would like to have some additional functionalities for the Shape,
+like Fill-Color, Line-Color,  Line-Thinkness, Line-Style, and so on.
+
+First, we will create an abstract wrapper (decorator) class that implements the Shape. 
+I will use theShapeDecorator for this example.
